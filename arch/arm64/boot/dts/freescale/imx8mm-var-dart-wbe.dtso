@@ -33,7 +33,7 @@
 &iomuxc {
 	pinctrl_iw612_spi: iw612_spi_grp {
 		fsl,pins = <
-			MX8MM_IOMUXC_SD1_DATA5_GPIO2_IO7				0xc1
+			MX8MM_IOMUXC_SD1_DATA5_GPIO2_IO7		0xc1	/* 802.15.4 IRQ */
 		>;
 	};
 };
